@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive
+}
+img{
+    margin-top: 10px;
+}
+h2{
+    background: rgba(128, 128, 128, 0.792);
+    border-radius: 7px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+body{
+    background-image: url(neswi.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.coming-soon{
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.countdown{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: rgba(128, 128, 128, 0.792);
+    border-radius: 7px;
+}
+.day,.hour,.minute,.second{
+    font-size: 2rem
+}
+.neshwi{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 9%;
+}
+.footer{
+  background: rgba(128, 128, 128, 0.792);
+  border-radius: 7px;
+  margin-top: 5%;
+  list-style: none;
+  color: black;
+ margin-left: 34px;
+ margin-right: 20px;
+ margin-bottom: 9px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
